@@ -1,18 +1,43 @@
+            <style type="text/css"> 
+                  #map_canvas { height: 240px;width: 320px }
+            </style>
+
         <div class="page-header">
-          <h1>Page name <small>Supporting text or tagline</small></h1>
+          <h1><?php echo $imprint['Imprint']['note']; ?></h1>
         </div>
         <div class="row">
           <div class="span10">
-            <h2>Main content</h2>
+.
+        <?php if ($imprint['Imprint']['imp_type'] == '2'):  ?>
+            <a class="lightbox" rel="group1" href="http://s3.zimity.me/<?php echo $imprint['Imprint']['slug'] ?>.jpg"><img alt="example3" src="http://s3.zimity.me/<?php echo $imprint['Imprint']['slug']; ?>_m.jpg" /></a>
+        <?php endif; ?>
 
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> 
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/> 
-<style type="text/css"> 
+              </div>
+          <div class="span4">
+            <h3>Profile</h3>
+            <dl>
+               <dt>Name</dt>
+               <dd><?php echo $this->Html->link($imprint['User']['firstname'], array('controller' => 'imprints', 'action' => 'view', $imprint['Imprint']['slug'])); ?></dd>
+               <dt>Location</dt>
+               <dd>Ottawa, ON</dd>
+               <dt>Contact</dt>
+               <dd>blah@blah.com</dd>
+             </dl>
 
-  #map_canvas { height: 480px;width: 640px }
-</style>
-        
-        
+            <div id="map_canvas"></div>
+            <dl>
+               <dt>Latitude</dt>
+               <dd><?php echo $imprint['Imprint']['latitude']; ?></dd>
+               <dt>Longitude</dt>
+               <dd><?php echo $imprint['Imprint']['longitude']; ?></dd>
+               <dt>Altitude</dt>
+               <dd><?php echo $imprint['Imprint']['altitude']; ?></td></dd>
+            </dl>
+             </dl>
+          </div>
+        </div>
+
+
 <script type="text/javascript"> 
   function initialize() {
     var myLatlng = new google.maps.LatLng(<?php echo $imprint['Imprint']['latitude']; ?>, <?php echo $imprint['Imprint']['longitude']; ?>);
@@ -27,18 +52,16 @@
     }
     var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
     
-    var contentString = '<div id="content">'+
+    var contentString = '<div id="">'+
     '<div id="siteNotice"></div>'+
     '<h1 id="firstHeading" class="firstHeading"><strong><?php echo ucfirst($imprint['User']['firstname']) . ' ' . ucfirst(substr($imprint['User']['lastname'], 0, 1)) . '.' ?></strong></h1>'+
     '<div id="bodyContent">'+
-    '<p><?php echo $imprint['Imprint']['note']; ?></p>' +
-    '</div>'+
-    '</div>';
+    '<p><?php echo $imprint['Imprint']['note']; ?></p></div></div>';
     
-    var infowindow = new google.maps.InfoWindow({
-    content: contentString,
-    position: myLatlng
-    });
+    <!-- var infowindow = new google.maps.InfoWindow({ -->
+    <!-- content: contentString, -->
+    <!-- position: myLatlng -->
+    <!-- }); -->
     
     var marker = new google.maps.Marker({
     position: myLatlng,
@@ -58,56 +81,3 @@
   
   window.onload = loadScript;
 </script>
-
-            <table>
-            <tr>
-                <td>id</td>
-                <td>firstname</td>
-                <td>imp_type</td>
-                <td>caption</td>
-                <td>slug</td>
-                <td>latitude</td>
-                <td>longitude</td>
-                <td>altitude</td>
-                <td>bearing</td>
-                <td>speed</td>
-                <td>sharing</td>
-                <td>accuracy</td>
-                <td>syncd</td>
-                <td>deleted</td>
-                <td>created</td>
-                <td>modified</td>
-            </tr>
-            
-            <tr>
-                <td><?php echo $this->Html->link($imprint['Imprint']['slug'], array('controller' => 'imprints', 'action' => 'view', $imprint['Imprint']['slug'])); ?>
-                <td><?php echo $imprint['User']['firstname']; ?></td>
-                <td><?php echo $imprint['Imprint']['imp_type']; ?></td>
-                <td><?php echo $imprint['Imprint']['note']; ?></td>
-                <td><?php echo $imprint['Imprint']['slug']; ?></td>
-                <td><?php echo $imprint['Imprint']['latitude']; ?></td>
-                <td><?php echo $imprint['Imprint']['longitude']; ?></td>
-                <td><?php echo $imprint['Imprint']['altitude']; ?></td>
-                <td><?php echo $imprint['Imprint']['bearing']; ?></td>
-                <td><?php echo $imprint['Imprint']['speed']; ?></td>
-                <td><?php echo $imprint['Imprint']['sharing']; ?></td>
-                <td><?php echo $imprint['Imprint']['accuracy']; ?></td>
-                <td><?php echo $imprint['Imprint']['syncd']; ?></td>
-                <td><?php echo $imprint['Imprint']['deleted']; ?></td>
-                <td><?php echo $imprint['Imprint']['created']; ?></td>
-                <td><?php echo $imprint['Imprint']['modified']; ?></td>
-            </tr>
-            
-        </table>
-
-        <?php if ($imprint['Imprint']['imp_type'] == '2'):  ?>
-            <a class="lightbox" rel="group1" href="http://s3.zimity.me/<?php echo $imprint['Imprint']['slug'] ?>.jpg"><img alt="example3" src="http://s3.zimity.me/<?php echo $imprint['Imprint']['slug']; ?>_m.jpg" /></a>
-        <?php endif; ?>
-
-    <div id="map_canvas"></div>
-
-              </div>
-          <div class="span4">
-            <h3>Secondary content</h3>
-          </div>
-        </div>

@@ -22,7 +22,7 @@
   <meta name="author" content="">
 
   <!--  Mobile viewport optimized: j.mp/bplateviewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
   <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
   <link rel="shortcut icon" href="<?php echo $this->webroot;?>favicon.ico" type="image/x-icon" />
@@ -41,7 +41,7 @@
     </style>
 
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-  <script src="js/libs/modernizr-1.6.min.js"></script>
+  <?php echo $this->Html->script('libs/modernizr-2.0.6.min.js'); ?>
 
   <?php echo $scripts_for_layout ?>
 </head>
@@ -90,7 +90,7 @@
       </div>
 
       <footer>
-        <p>&copy; Company 2011</p>
+        <p>&copy; zimity 2011</p>
       </footer>
 
     </div> <!-- /container -->
@@ -136,8 +136,8 @@
   </script>
 
   <!-- scripts concatenated and minified via ant build script-->
-  <script defer src="js/plugins.js"></script>
-  <script defer src="js/script.js"></script>
+  <?php echo $this->Html->script('plugins.js'); ?>
+  <?php echo $this->Html->script('script.js'); ?>
   <!-- end scripts-->
 
   

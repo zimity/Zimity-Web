@@ -29,8 +29,7 @@
             if ($row) {
                 $this->set('imprint', $this->Imprint->findBySlug($id));
             } else {
-                $this->Session->setFlash('FAIL WHALE');
-                $this->redirect(array('controller' => 'imprints', 'action' => 'index', 'index'));
+                throw new NotFoundException('WTF?');
             }
         }
 
@@ -57,6 +56,7 @@
                     $bucket = 's3.zimity.me';
 					$smallname = $slug . '_s.jpg';
 					$mediumname = $slug . '_m.jpg';
+                    $largename = $slug . '_l.jpg';
 					$fullname = $slug . '.jpg';
                     $temp = $this->data['Imprint']['extra'];
                     $fullsize = $temp["tmp_name"];
@@ -68,12 +68,18 @@
 					
 					$medium = new SimpleImage();
 					$medium->load($temp["tmp_name"]);
-					$medium->resize(300, 300);
+					$medium->resize(320, 240);
 					$medium->save($temp["tmp_name"] . '_m');
-					
 
-     $s3->batch()->create_object($bucket, $smallname, array('fileUpload' => $temp["tmp_name"] . '_s', 'acl' => AmazonS3::ACL_PUBLIC, 'contentType' => 'image/jpg'));
+                    $large = new SimpleImage();
+                    $large->load($temp["tmp_name"]);
+                    $large->resize(640, 480);
+                    $large->save($temp["tmp_name"]);
+		
+
+                    $s3->batch()->create_object($bucket, $smallname, array('fileUpload' => $temp["tmp_name"] . '_s', 'acl' => AmazonS3::ACL_PUBLIC, 'contentType' => 'image/jpg'));
 					$s3->batch()->create_object($bucket, $mediumname, array('fileUpload' => $temp["tmp_name"] . '_m', 'acl' => AmazonS3::ACL_PUBLIC, 'contentType' => 'image/jpeg'));
+                    $s3->batch()->create_object($bucket, $largename, array('fileUpload' => $temp["tmp_name"] . '_l', 'acl' => AmazonS3::ACL_PUBLIC, 'contentType' => 'image/jpeg'));                   
 					$s3->batch()->create_object($bucket, $fullname, array('fileUpload' => $fullsize, 'acl' => AmazonS3::ACL_PUBLIC, 'contentType' => 'image/jpeg'));
 					
 					$file_upload_response = $s3->batch()->send();

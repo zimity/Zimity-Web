@@ -12,7 +12,7 @@
                 $this->set('user', $this->User->findById($id));
             } else {
                 $this->Session->setFlash('FAIL WHALE');
-                $this->redirect(array('controller' => 'users', 'action' => 'index', 'index'));
+                $this->redirect(array('controller' => 'users',  'action' => 'index'));
             }
         }
     }

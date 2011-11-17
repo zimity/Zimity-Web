@@ -64,7 +64,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'Mjrp1985',
+		'password' => 'root',
 		'database' => 'zimity',
 		'prefix' => '',
 		//'encoding' => 'utf8',
