@@ -1417,3 +1417,67 @@ AppError::handleError() - APP/Lib/AppError.php, line 4
 2011-11-15 22:12:50 Error: [MissingControllerException] Controller class AsdfafController could not be found.
 #0 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2011-11-17 00:35:05 Error: [MissingControllerException] Controller class Imprints.jsonController could not be found.
+#0 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 00:36:14 Error: [NotFoundException] WTF?
+#0 [internal function]: ImprintsController->view()
+#1 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ImprintsController), Array)
+#2 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ImprintsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-17 00:40:37 Error: [NotFoundException] WTF?
+#0 [internal function]: ImprintsController->view('8VmMrOd')
+#1 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ImprintsController), Array)
+#2 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ImprintsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-17 00:41:36 Error: [MissingControllerException] Controller class VController could not be found.
+#0 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 00:41:47 Error: [MissingControllerException] Controller class VController could not be found.
+#0 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 01:22:41 Error: [NotFoundException] WTF?
+#0 [internal function]: ImprintsController->view()
+#1 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ImprintsController), Array)
+#2 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ImprintsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-17 01:22:47 Error: [NotFoundException] WTF?
+#0 [internal function]: ImprintsController->view()
+#1 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ImprintsController), Array)
+#2 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ImprintsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-17 01:22:57 Error: [NotFoundException] WTF?
+#0 [internal function]: ImprintsController->view('imprints')
+#1 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ImprintsController), Array)
+#2 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ImprintsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-17 01:39:37 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/index.ctp, line 10]
+Trace:
+include - APP/View/Imprints/index.ctp, line 10
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 01:39:54 Warning: Warning (2): Invalid argument supplied for foreach() in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/index.ctp, line 10]
+Trace:
+include - APP/View/Imprints/index.ctp, line 10
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+

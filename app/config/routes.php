@@ -31,6 +31,13 @@
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
+
+	Router::connect('/i', array('controller' => 'imprints', 'action' => 'index'));
+	Router::connect('/u', array('controller' => 'users', 'action' => 'index'));
+
+	Router::connect('/i/*', array('controller' => 'imprints', 'action' => 'view'));
+	Router::connect('/u/*', array('controller' => 'users', 'action' => 'view'));
+
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 
  * how to customize the loading of plugin routes.

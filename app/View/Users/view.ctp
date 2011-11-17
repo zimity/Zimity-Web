@@ -1,3 +1,9 @@
+<ul class="breadcrumb">
+  <li><?php echo $this->Html->link('Home', array('controller' => 'pages', 'action' => 'display', 'home')); ?> <span class="divider">/</span></li>
+  <li><?php echo $this->Html->link('Users', array('controller' => 'users', 'action' => 'index')); ?> <span class="divider">/</span></li>
+  <li><?php echo ucfirst($user['User']['firstname']) . ' ' . ucfirst(substr($user['User']['lastname'], 0, 1)) . '.' ?></li>
+</ul>
+
         <div class="page-header">
           <h1><?php echo ucfirst($user['User']['firstname']) . ' ' . ucfirst(substr($user['User']['lastname'], 0, 1)) . '.' ?> <small>life beings at the end of your comfort (make this a quote column)</small></h1>
         </div>
@@ -10,7 +16,7 @@
 <?php
 	foreach ($user['Imprint'] as $imprint) {
 		if ($imprint['imp_type'] == 2) {
-			echo '<li><a class="lightbox" rel="group1" href="http://s3.zimity.me/' . $imprint['slug'] . '.jpg"><img alt="' . $imprint['note'] . '" src="http://s3.zimity.me/' . $imprint['slug'] . '_s.jpg" /></a></li>';
+			echo '<li><a class="lightbox" rel="popover" title="' . $imprint['note'] . '" href="http://s3.zimity.me/' . $imprint['slug'] . '.jpg"><img alt="' . $imprint['note'] . '" src="http://s3.zimity.me/' . $imprint['slug'] . '_s.jpg" /></a></li>';
 		}
 	}
 ?>
@@ -83,7 +89,53 @@
 	}
 ?>
 
-</table>
+
+      <form action="" class="form-stacked">
+          <div class="clearfix">
+            <label for="comment">Comment</label>
+            <div class="input">
+              <textarea class="xxlarge" id="comment" name="comment" rows="3"></textarea>
+            </div>
+          <div class="actions">
+            <input type="submit" class="btn primary" value="Post Comment">&nbsp;<button type="reset" class="btn">Cancel</button>
+          </div>
+          </div>
+      </form>
+
+      <table class="zebra-striped">
+        <tbody>
+          <tr>
+            <td>PIC</td>
+            <td>Username</td>
+            <td>This is my comment about this imprint!</td>
+          </tr>
+          <tr>
+            <td>PIC</td>
+            <td>Username</td>
+            <td>This is my comment about this imprint!</td>
+          </tr>
+          <tr>
+            <td>PIC</td>
+            <td>Username</td>
+            <td>This is my comment about this imprint!</td>
+          </tr>
+          <tr>
+            <td>PIC</td>
+            <td>Username</td>
+            <td>This is my comment about this imprint!</td>
+          </tr>
+          <tr>
+            <td>PIC</td>
+            <td>Username</td>
+            <td>This is my comment about this imprint!</td>
+          </tr>
+          <tr>
+            <td>PIC</td>
+            <td>Username</td>
+            <td>This is my comment about this imprint!</td>
+          </tr>
+        </tbody>
+      </table>
 
           </div>
           <div class="span4">
