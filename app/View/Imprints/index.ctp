@@ -1,28 +1,32 @@
-         <div class="page-header">
-          <h1>Imprints! <small>Supporting text or tagline</small></h1>
-        </div>
-        <div class="row">
-          <div class="span10">
+<div class="page-header">
+   <h1>Imprints! <small>Supporting text or tagline</small></h1>
+</div>
 
-<ul class="media-grid">
+<div class="row">
+   <div class="span10">
 
-<?php
-    foreach ($imprints as $imprint) {
-        if ($imprint['Imprint']['imp_type'] == 2) {
-            echo '<li><a class="lightbox" rel="popover" title="' . $imprint['Imprint']['note'] . '" href="http://s3.zimity.me/' . $imprint['Imprint']['slug'] . '.jpg"><img alt="' . $imprint['Imprint']['note'] . '" src="http://s3.zimity.me/' . $imprint['Imprint']['slug'] . '_s.jpg" /></a></li>';
-        } else {
-            echo '<li>' . $this->Html->link($imprint['Imprint']['note'], '', array('rel' => 'popover')) . '</li>';
-        }
-    }
-?>
+   <ul class="media-grid">
 
-</ul>
+      <?php
+       foreach ($imprints as $imprint) {
+          if ($imprint['Imprint']['imp_type'] == 2) {
+             echo '<li>' . $this->Html->link($this->Html->image('http://s3.zimity.me/' . $imprint['Imprint']['slug'] . '_s.jpg'), array('controller' => 'imprints', 'action' => 'view', $imprint['Imprint']['slug']), array('rel' => 'popover', 'title' => $imprint['User']['firstname'], 'data-content' => $imprint['Imprint']['note'], 'escape' => false)) . '</li>';
+          } else {
+             echo '<li>' . $this->Html->link($imprint['Imprint']['note'], array('controller' => 'imprints', 'action' => 'view', $imprint['Imprint']['slug'])) . '</li>';
+          }
+       }
+      ?>
 
-          </div>
-          <div class="span4">
-            <h3>Secondary content</h3>
-          </div>
-        </div>
+
+   </ul>
+
+   </div>
+
+
+   <div class="span4">
+      <h3>Secondary content</h3>
+   </div>
+</div>
 
 <div class="pagination">
   <ul>

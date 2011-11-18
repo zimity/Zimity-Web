@@ -1,7 +1,7 @@
 <ul class="breadcrumb">
   <li><?php echo $this->Html->link('Home', array('controller' => 'pages', 'action' => 'display', 'home')); ?> <span class="divider">/</span></li>
   <li><?php echo $this->Html->link('Users', array('controller' => 'users', 'action' => 'index')); ?> <span class="divider">/</span></li>
-  <li><?php echo ucfirst($user['User']['firstname']) . ' ' . ucfirst(substr($user['User']['lastname'], 0, 1)) . '.' ?></li>
+  <li><?php echo $this->Html->link(ucfirst($user['User']['firstname']) . ' ' . ucfirst(substr($user['User']['lastname'], 0, 1)) . '.', array('controller' => 'users', 'action' => 'view', $user['User']['id'])); ?></li>
 </ul>
 
         <div class="page-header">

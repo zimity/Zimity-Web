@@ -1481,3 +1481,398 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
 [main] - APP/webroot/index.php, line 96
 
+2011-11-17 20:53:58 Error: [NotFoundException] WTF?
+#0 [internal function]: ImprintsController->view('1')
+#1 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ImprintsController), Array)
+#2 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ImprintsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-17 20:59:31 Warning: Warning (2): htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 20:59:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 20:59:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 20:59:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 20:59:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 20:59:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 20:59:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 20:59:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 20:59:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 20:59:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:00:54 Warning: Warning (2): htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:00:54 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:00:54 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:00:54 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:00:54 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:00:54 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:00:54 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:00:54 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:00:54 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:00:54 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:01:31 Warning: Warning (2): htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:01:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:01:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:01:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:01:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:01:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:01:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:01:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:01:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:01:31 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `false' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/index.ctp, line 13
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 21:01:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 21:05:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 21:05:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-17 21:20:26 Error: [NotFoundException] WTF?
+#0 [internal function]: ImprintsController->view()
+#1 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ImprintsController), Array)
+#2 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ImprintsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-17 21:44:13 Warning: Warning (2): htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: charset `n' not supported, assuming iso-8859-1 in [/Users/mjparinas/Documents/Zimity-Web/lib/Cake/View/Helper/HtmlHelper.php, line 337]
+Trace:
+htmlentities - [internal], line ??
+HtmlHelper::link() - CORE/Cake/View/Helper/HtmlHelper.php, line 337
+include - APP/View/Imprints/view.ctp, line 4
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+

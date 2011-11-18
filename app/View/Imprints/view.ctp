@@ -1,21 +1,36 @@
 <ul class="breadcrumb">
   <li><?php echo $this->Html->link('Home', array('controller' => 'pages', 'action' => 'display', 'home')); ?> <span class="divider">/</span></li>
   <li><?php echo $this->Html->link('Imprints', array('controller' => 'imprints', 'action' => 'index')); ?> <span class="divider">/</span></li>
-  <li><?php echo ucfirst($user['User']['firstname']) . ' ' . ucfirst(substr($user['User']['lastname'], 0, 1)) . '.' ?></li>
+    <li><?php echo $this->Html->link($imprint['Imprint']['slug'], array('controller' => 'imprints', 'action' => 'view', $imprint['Imprint']['slug'])); ?> </li>
 </ul>
 
             <style type="text/css"> 
                   #map_canvas { height: 240px;width: 320px }
+                  
+          /* Give a quick and non-cross-browser friendly divider */
+          .content .span4 {
+            margin-left: 0;
+            padding-left: 19px;
+            border-left: 1px solid #eee;
+          }
             </style>
 
         <div class="page-header">
-          <h1><?php echo $imprint['Imprint']['note']; ?></h1>
+          <h1><?php echo $imprint['Imprint']['title']; ?></h1>
         </div>
         <div class="row">
           <div class="span10">
-          <?php if ($imprint['Imprint']['imp_type'] == '2'):  ?>
-            <a class="lightbox" rel="group1" href="http://s3.zimity.me/<?php echo $imprint['Imprint']['slug'] ?>.jpg"><img alt="example3" src="http://s3.zimity.me/<?php echo $imprint['Imprint']['slug']; ?>_m.jpg" /></a>
-          <?php endif; ?>
+             <div class="media-grid">
+          <?php if ($imprint['Imprint']['imp_type'] == '2')
+                echo '<li>' . $this->Html->link($this->Html->image('http://s3.zimity.me/' . $imprint['Imprint']['slug'] . '_m.jpg'), 'http://s3.zimity.me/' . $imprint['Imprint']['slug'] . '.jpg', array('escape' => false, 'class' => 'lightbox', 'title' => 'adsfasf')) . '</li>';
+
+          ?>
+             </div>
+          
+             
+          <p>
+             <?php echo $imprint['Imprint']['note']; ?>
+          </p>
 
       <form action="" class="form-stacked">
           <div class="clearfix">
@@ -69,7 +84,7 @@
             <h3>Profile</h3>
             <dl>
                <dt>Name</dt>
-               <dd><?php echo $this->Html->link($imprint['User']['firstname'], array('controller' => 'imprints', 'action' => 'view', $imprint['Imprint']['slug'])); ?></dd>
+               <dd><?php echo $this->Html->link($imprint['User']['firstname'], array('controller' => 'users', 'action' => 'view', $imprint['User']['id'])); ?></dd>
                <dt>Location</dt>
                <dd>Ottawa, ON</dd>
                <dt>Contact</dt>
@@ -99,28 +114,15 @@
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       mapTypeControl: false,
       scaleControl: false,
-      navigationControl: false,
+      navigationControl: true,
       streetViewControl: false
     }
     var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-    
-    var contentString = '<div id="">'+
-    '<div id="siteNotice"></div>'+
-    '<h1 id="firstHeading" class="firstHeading"><strong><?php echo ucfirst($imprint['User']['firstname']) . ' ' . ucfirst(substr($imprint['User']['lastname'], 0, 1)) . '.' ?></strong></h1>'+
-    '<div id="bodyContent">'+
-    '<p><?php echo $imprint['Imprint']['note']; ?></p></div></div>';
-    
-    <!-- var infowindow = new google.maps.InfoWindow({ -->
-    <!-- content: contentString, -->
-    <!-- position: myLatlng -->
-    <!-- }); -->
     
     var marker = new google.maps.Marker({
     position: myLatlng,
     map: map
     });
-
-    infowindow.open(map, marker);
   }
   
   function loadScript() {

@@ -121,15 +121,9 @@
 
   <script type="text/javascript">
     $(document).ready(function() {
-                    $('a[rel=twipsy]').twipsy({'placement': 'below'});
+       $("a[rel=twipsy]").twipsy({'placement': 'below'});
+       $("a[rel=popover]").popover({offset: 10});
 
-                                  $("a[rel=popover]")
-                .popover({
-                  offset: 10
-                })
-                .click(function(e) {
-                  e.preventDefault()
-                });
 
         $("a.lightbox").fancybox({
                 'transitionIn'        : 'elastic',
@@ -140,11 +134,8 @@
                 'margin'              : 75,
                 'titlePosition'   : 'over',
                 'overlayColor'    : '#000',
-                'overlayOpacity'  : 0.9,
-                'titleFormat'   : function(title, currentArray, currentIndex, currentOpts) {
-          return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
-              }
-      });
+                'overlayOpacity'  : 0.9
+              });
         });
   </script>
 
