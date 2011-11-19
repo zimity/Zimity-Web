@@ -1,47 +1,36 @@
-<ul class="breadcrumb">
-  <li><?php echo $this->Html->link('Home', array('controller' => 'pages', 'action' => 'display', 'home')); ?> <span class="divider">/</span></li>
-  <li><?php echo $this->Html->link('Imprints', array('controller' => 'imprints', 'action' => 'index')); ?> <span class="divider">/</span></li>
-    <li><?php echo $this->Html->link($imprint['Imprint']['slug'], array('controller' => 'imprints', 'action' => 'view', $imprint['Imprint']['slug'])); ?> </li>
-</ul>
+  <ul class="breadcrumb">
+    <li><?php echo $this->Html->link('Home', array('controller' => 'pages', 'action' => 'display', 'home')); ?><span class="divider">/</span></li>
+    <li><?php echo $this->Html->link('Imprints', array('controller' => 'imprints', 'action' => 'index')); ?><span class="divider">/</span></li>
+    <li><?php echo $this->Html->link($imprint['Imprint']['slug'], array('controller' => 'imprints', 'action' => 'view', $imprint['Imprint']['slug'])); ?></li>
+  </ul>
 
-            <style type="text/css"> 
-                  #map_canvas { height: 240px;width: 320px }
-                  
-          /* Give a quick and non-cross-browser friendly divider */
-          .content .span4 {
-            margin-left: 0;
-            padding-left: 19px;
-            border-left: 1px solid #eee;
-          }
-            </style>
+  <div class="page-header">
+    <h1><?php echo $imprint['Imprint']['title']; ?></h1>
+  </div>
 
-        <div class="page-header">
-          <h1><?php echo $imprint['Imprint']['title']; ?></h1>
-        </div>
-        <div class="row">
-          <div class="span10">
-             <div class="media-grid">
-          <?php if ($imprint['Imprint']['imp_type'] == '2')
-                echo '<li>' . $this->Html->link($this->Html->image('http://s3.zimity.me/' . $imprint['Imprint']['slug'] . '_m.jpg'), 'http://s3.zimity.me/' . $imprint['Imprint']['slug'] . '.jpg', array('escape' => false, 'class' => 'lightbox', 'title' => 'adsfasf')) . '</li>';
+  <div class="row">
+    <div class="span10">
+      <div class="media-grid">
+        <?php if ($imprint['Imprint']['imp_type'] == '2')
+            echo '<li>' . $this->Html->link($this->Html->image('http://s3.zimity.me/' . $imprint['Imprint']['slug'] . '_m.jpg'), 'http://s3.zimity.me/' . $imprint['Imprint']['slug'] . '.jpg', array('escape' => false, 'class' => 'lightbox', 'title' => 'adsfasf')) . '</li>';
+        ?>
+      </div>
 
-          ?>
-             </div>
-          
-             
-          <p>
-             <?php echo $imprint['Imprint']['note']; ?>
-          </p>
+      <p><?php echo $imprint['Imprint']['note']; ?></p>
 
       <form action="" class="form-stacked">
-          <div class="clearfix">
-            <label for="comment">Comment</label>
-            <div class="input">
-              <textarea class="xxlarge" id="comment" name="comment" rows="3"></textarea>
-            </div>
+        <div class="clearfix">
+          <label for="comment">Comment</label>
+
+          <div class="input">
+            <textarea class="xxlarge" id="comment" name="comment" rows="3"></textarea>
+          </div>
+
           <div class="actions">
-            <input type="submit" class="btn primary" value="Post Comment">&nbsp;<button type="reset" class="btn">Cancel</button>
+            <input type="submit" class="btn primary" value=
+            "Post Comment" />&nbsp;<button type="reset" class="btn">Cancel</button>
           </div>
-          </div>
+        </div>
       </form>
 
       <table class="zebra-striped">
@@ -51,26 +40,31 @@
             <td>Username</td>
             <td>This is my comment about this imprint!</td>
           </tr>
+
           <tr>
             <td>PIC</td>
             <td>Username</td>
             <td>This is my comment about this imprint!</td>
           </tr>
+
           <tr>
             <td>PIC</td>
             <td>Username</td>
             <td>This is my comment about this imprint!</td>
           </tr>
+
           <tr>
             <td>PIC</td>
             <td>Username</td>
             <td>This is my comment about this imprint!</td>
           </tr>
+
           <tr>
             <td>PIC</td>
             <td>Username</td>
             <td>This is my comment about this imprint!</td>
           </tr>
+
           <tr>
             <td>PIC</td>
             <td>Username</td>
@@ -78,34 +72,39 @@
           </tr>
         </tbody>
       </table>
+    </div>
 
-          </div>
-          <div class="span4">
-            <h3>Profile</h3>
-            <dl>
-               <dt>Name</dt>
-               <dd><?php echo $this->Html->link($imprint['User']['firstname'], array('controller' => 'users', 'action' => 'view', $imprint['User']['id'])); ?></dd>
-               <dt>Location</dt>
-               <dd>Ottawa, ON</dd>
-               <dt>Contact</dt>
-               <dd>blah@blah.com</dd>
-             </dl>
+    <div class="span4">
+      <h3>Profile</h3>
 
-            <div id="map_canvas"></div>
-            <dl>
-               <dt>Latitude</dt>
-               <dd><?php echo $imprint['Imprint']['latitude']; ?></dd>
-               <dt>Longitude</dt>
-               <dd><?php echo $imprint['Imprint']['longitude']; ?></dd>
-               <dt>Altitude</dt>
-               <dd><?php echo $imprint['Imprint']['altitude']; ?></td></dd>
-            </dl>
-             </dl>
-          </div>
-        </div>
+      <dl>
+        <dt>Name</dt>
+        <dd><?php echo $this->Html->link($imprint['User']['firstname'], array('controller' => 'users', 'action' => 'view', $imprint['User']['id'])); ?></dd>
 
+        <dt>Location</dt>
+        <dd>Ottawa, ON</dd>
 
-<script type="text/javascript"> 
+        <dt>Contact</dt>
+        <dd>blah@blah.com</dd>
+      </dl>
+
+      <div id="map_canvas"></div>
+
+      <dl>
+        <dt>Latitude</dt>
+        <dd><?php echo $imprint['Imprint']['latitude']; ?></dd>
+
+        <dt>Longitude</dt>
+        <dd><?php echo $imprint['Imprint']['longitude']; ?></dd>
+
+        <dt>Altitude</dt>
+        <dd><?php echo $imprint['Imprint']['altitude']; ?></dd>
+      </dl>
+    </div>
+  </div>
+  <script type="text/javascript">
+  //<![CDATA[
+
   function initialize() {
     var myLatlng = new google.maps.LatLng(<?php echo $imprint['Imprint']['latitude']; ?>, <?php echo $imprint['Imprint']['longitude']; ?>);
     var myOptions = {
@@ -124,7 +123,7 @@
     map: map
     });
   }
-  
+
   function loadScript() {
     var script = document.createElement("script");
     script.type = "text/javascript";
@@ -132,6 +131,8 @@
     document.body.appendChild(script);
 
   }
-  
+
   window.onload = loadScript;
-</script>
+  
+  //]]>
+  </script>

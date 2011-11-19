@@ -29,7 +29,7 @@
             if ($row) {
                 $this->set('imprint', $this->Imprint->findBySlug($id));
             } else {
-                throw new NotFoundException('WTF?');
+                throw new NotFoundException();
             }
         }
 

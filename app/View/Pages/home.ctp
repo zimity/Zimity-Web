@@ -1,11 +1,19 @@
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>Hello, world!</h1>
-        <p>Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        <p><a class="btn primary large">Learn more &raquo;</a></p>
+         <div class="hero-unit">
+        <div class="row">
+           <div class="span5 offset1">
+              <?php echo $this->Html->image('mobile.png'); ?>
+           </div>
+           <div class="span8">
+              <h1>Zimity <small>for Android 2.1+</small></h1>
+              <br />
+              <p>Zimity allows you to effortlessly create and share photos, videos and notes using from your current location using your GPS enabled mobile phone. You can also discover local deals, bookmark important locations or even chat with nearby Zimity users!</p>
+              <p>Come join us and leave your mark wherever life takes you.</p>
+              <br />
+              <p><a class="btn primary large" href="http://market.android.com/details?id=ca.rivalstudios.runboyrun">Download now &raquo;</a></p>
+           </div>
+        </div>
       </div>
 
-      <!-- Example row of columns -->
       <div class="row">
         <div class="span6">
           <h2>Heading</h2>

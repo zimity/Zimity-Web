@@ -3402,3 +3402,843 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
 [main] - APP/webroot/index.php, line 96
 
+2011-11-17 22:28:04 Notice: Notice (8): Undefined index: title in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/view.ctp, line 19]
+Trace:
+include - APP/View/Imprints/view.ctp, line 19
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 22:31:46 Notice: Notice (8): Undefined index: title in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/view.ctp, line 19]
+Trace:
+include - APP/View/Imprints/view.ctp, line 19
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 22:32:12 Notice: Notice (8): Undefined index: title in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/view.ctp, line 19]
+Trace:
+include - APP/View/Imprints/view.ctp, line 19
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 22:33:25 Notice: Notice (8): Undefined index: title in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/view.ctp, line 19]
+Trace:
+include - APP/View/Imprints/view.ctp, line 19
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 22:33:27 Notice: Notice (8): Undefined index: title in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/view.ctp, line 19]
+Trace:
+include - APP/View/Imprints/view.ctp, line 19
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 22:33:29 Notice: Notice (8): Undefined index: title in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/view.ctp, line 19]
+Trace:
+include - APP/View/Imprints/view.ctp, line 19
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 22:37:02 Notice: Notice (8): Undefined index: title in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/view.ctp, line 19]
+Trace:
+include - APP/View/Imprints/view.ctp, line 19
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 22:37:30 Notice: Notice (8): Undefined index: title in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/view.ctp, line 19]
+Trace:
+include - APP/View/Imprints/view.ctp, line 19
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 22:38:08 Notice: Notice (8): Undefined index: title in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/view.ctp, line 19]
+Trace:
+include - APP/View/Imprints/view.ctp, line 19
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 22:39:55 Notice: Notice (8): Undefined index: title in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/view.ctp, line 19]
+Trace:
+include - APP/View/Imprints/view.ctp, line 19
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 22:43:05 Notice: Notice (8): Undefined index: title in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/view.ctp, line 19]
+Trace:
+include - APP/View/Imprints/view.ctp, line 19
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-17 22:43:10 Notice: Notice (8): Undefined index: title in [/Users/mjparinas/Documents/Zimity-Web/app/View/Imprints/view.ctp, line 19]
+Trace:
+include - APP/View/Imprints/view.ctp, line 19
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:11:52 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:11:52 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 154]
+Trace:
+include - APP/View/Users/view.ctp, line 154
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:11:52 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 156]
+Trace:
+include - APP/View/Users/view.ctp, line 156
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:13:04 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:13:04 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 154]
+Trace:
+include - APP/View/Users/view.ctp, line 154
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:13:04 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 156]
+Trace:
+include - APP/View/Users/view.ctp, line 156
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:13:53 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:13:53 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 154]
+Trace:
+include - APP/View/Users/view.ctp, line 154
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:13:53 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 156]
+Trace:
+include - APP/View/Users/view.ctp, line 156
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:23:28 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:23:28 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 157]
+Trace:
+include - APP/View/Users/view.ctp, line 157
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:23:28 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 159]
+Trace:
+include - APP/View/Users/view.ctp, line 159
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:26:52 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:26:52 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 175]
+Trace:
+include - APP/View/Users/view.ctp, line 175
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:26:52 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 177]
+Trace:
+include - APP/View/Users/view.ctp, line 177
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:27:20 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:27:20 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 175]
+Trace:
+include - APP/View/Users/view.ctp, line 175
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:27:20 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 177]
+Trace:
+include - APP/View/Users/view.ctp, line 177
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:28:10 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:28:10 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 169]
+Trace:
+include - APP/View/Users/view.ctp, line 169
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:28:10 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 171]
+Trace:
+include - APP/View/Users/view.ctp, line 171
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:29:15 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:29:15 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 160]
+Trace:
+include - APP/View/Users/view.ctp, line 160
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:29:15 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 162]
+Trace:
+include - APP/View/Users/view.ctp, line 162
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:29:54 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:29:54 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 160]
+Trace:
+include - APP/View/Users/view.ctp, line 160
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:29:54 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 162]
+Trace:
+include - APP/View/Users/view.ctp, line 162
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:31:39 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:31:39 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 160]
+Trace:
+include - APP/View/Users/view.ctp, line 160
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:31:39 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 162]
+Trace:
+include - APP/View/Users/view.ctp, line 162
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:31:54 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:31:54 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 160]
+Trace:
+include - APP/View/Users/view.ctp, line 160
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:31:54 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 162]
+Trace:
+include - APP/View/Users/view.ctp, line 162
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:31:57 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:31:57 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 160]
+Trace:
+include - APP/View/Users/view.ctp, line 160
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:31:57 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 162]
+Trace:
+include - APP/View/Users/view.ctp, line 162
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:32:43 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:32:43 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 160]
+Trace:
+include - APP/View/Users/view.ctp, line 160
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:32:43 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 162]
+Trace:
+include - APP/View/Users/view.ctp, line 162
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:33:13 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:33:13 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 160]
+Trace:
+include - APP/View/Users/view.ctp, line 160
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:33:13 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 162]
+Trace:
+include - APP/View/Users/view.ctp, line 162
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:46:12 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:46:12 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 160]
+Trace:
+include - APP/View/Users/view.ctp, line 160
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:46:12 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 162]
+Trace:
+include - APP/View/Users/view.ctp, line 162
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:49:37 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 8]
+Trace:
+include - APP/View/Users/view.ctp, line 8
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:49:37 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 160]
+Trace:
+include - APP/View/Users/view.ctp, line 160
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:49:37 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 162]
+Trace:
+include - APP/View/Users/view.ctp, line 162
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:50:28 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 15]
+Trace:
+include - APP/View/Users/view.ctp, line 15
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:50:28 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 198]
+Trace:
+include - APP/View/Users/view.ctp, line 198
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:50:28 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 202]
+Trace:
+include - APP/View/Users/view.ctp, line 202
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:54:13 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 15]
+Trace:
+include - APP/View/Users/view.ctp, line 15
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:54:13 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 198]
+Trace:
+include - APP/View/Users/view.ctp, line 198
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:54:13 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 202]
+Trace:
+include - APP/View/Users/view.ctp, line 202
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:57:45 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 15]
+Trace:
+include - APP/View/Users/view.ctp, line 15
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:57:45 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 198]
+Trace:
+include - APP/View/Users/view.ctp, line 198
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 21:57:45 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 202]
+Trace:
+include - APP/View/Users/view.ctp, line 202
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 22:57:20 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 10]
+Trace:
+include - APP/View/Users/view.ctp, line 10
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 22:57:20 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 173]
+Trace:
+include - APP/View/Users/view.ctp, line 173
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 22:57:20 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 176]
+Trace:
+include - APP/View/Users/view.ctp, line 176
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 22:58:15 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 10]
+Trace:
+include - APP/View/Users/view.ctp, line 10
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 22:58:15 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 173]
+Trace:
+include - APP/View/Users/view.ctp, line 173
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 22:58:15 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 176]
+Trace:
+include - APP/View/Users/view.ctp, line 176
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 23:00:49 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 10]
+Trace:
+include - APP/View/Users/view.ctp, line 10
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 23:00:49 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 173]
+Trace:
+include - APP/View/Users/view.ctp, line 173
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 23:00:49 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 176]
+Trace:
+include - APP/View/Users/view.ctp, line 176
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 23:02:36 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 10]
+Trace:
+include - APP/View/Users/view.ctp, line 10
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 23:02:36 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 173]
+Trace:
+include - APP/View/Users/view.ctp, line 173
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 23:02:36 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 176]
+Trace:
+include - APP/View/Users/view.ctp, line 176
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 23:02:57 Notice: Notice (8): Undefined index: quote in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 10]
+Trace:
+include - APP/View/Users/view.ctp, line 10
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 23:02:57 Notice: Notice (8): Undefined index: location in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 173]
+Trace:
+include - APP/View/Users/view.ctp, line 173
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-11-18 23:02:57 Notice: Notice (8): Undefined index: about in [/Users/mjparinas/Documents/Zimity-Web/app/View/Users/view.ctp, line 176]
+Trace:
+include - APP/View/Users/view.ctp, line 176
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 900
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+

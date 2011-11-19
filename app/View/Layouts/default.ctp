@@ -17,7 +17,7 @@
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title><?php echo $title_for_layout?></title>
+  <title>Zimity - <?php echo $title_for_layout?></title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -28,15 +28,23 @@
   <link rel="shortcut icon" href="<?php echo $this->webroot;?>favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="<?php echo $this->webroot;?>apple-touch-icon.ico" type="image/x-icon" />
 
-     <!-- Le fav and touch icons -->
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <!-- Le fav and touch icons -->
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
   <?php echo $this->Html->css('bootstrap.min'); ?>
 
     <style type="text/css">
       body {
         padding-top: 60px;
+      }
+      
+      #map_canvas { height: 240px;width: 320px }
+
+      .content .span10 {
+        margin-left: 0;
+        padding-left: 19px;
+        border-right: 1px solid #eee;
       }
     </style>
 
@@ -74,9 +82,10 @@
     <div class="topbar">
       <div class="fill">
         <div class="container">
-          <a class="brand" href="http://zimity.me">zimity</a>
+          <a class="brand" href="/">zimity</a>
           <ul class="nav">
             <li class="active"><a href="#">Home</a></li>
+            <li><a href="http://blog.zimity.me/">Blog</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
                     <li class="dropdown" data-dropdown="dropdown">
@@ -108,9 +117,19 @@
         <?php echo $content_for_layout ?>
 
       </div>
+      
+      <br />
 
       <footer>
-        <p>&copy; zimity 2011</p>
+            <?php echo $this->Html->link('About', '/about'); ?> &middot;
+            <?php echo $this->Html->link('Contact Us', '/contact'); ?> &middot;
+            <?php echo $this->Html->link('Blog', 'http://blog.zimity.me/'); ?> &middot;
+            <?php echo $this->Html->link('Help', 'http://support.zimity.me/'); ?> &middot;
+            <?php echo $this->Html->link('Developers', '/dev'); ?> &middot;
+            <?php echo $this->Html->link('Jobs', '/jobs'); ?> &middot;
+            <?php echo $this->Html->link('Terms', '/terms'); ?> &middot;
+            <?php echo $this->Html->link('Privacy', '/privacy'); ?> &middot;
+        &copy; 2011 Zimity
       </footer>
 
     </div> <!-- /container -->
@@ -144,10 +163,8 @@
   <?php echo $this->Html->script('script.js'); ?>
   <!-- end scripts-->
 
-  
-  <!-- Change UA-XXXXX-X to be your site's ID -->
   <script>
-    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    window._gaq = [['_setAccount','UA-17761849-1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
       load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
     });

@@ -29,6 +29,13 @@
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
+        Router::connect('/about', array('controller' => 'pages', 'action' => 'display', 'about'));
+        Router::connect('/contact', array('controller' => 'pages', 'action' => 'display', 'contact'));
+        Router::connect('/jobs', array('controller' => 'pages', 'action' => 'display', 'jobs'));
+        Router::connect('/terms', array('controller' => 'pages', 'action' => 'display', 'terms'));
+        Router::connect('/privacy', array('controller' => 'pages', 'action' => 'display', 'privacy'));
+        Router::connect('/dev', array('controller' => 'pages', 'action' => 'display', 'dev'));
+
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
 
