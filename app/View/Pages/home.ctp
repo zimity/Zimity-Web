@@ -6,10 +6,10 @@
            <div class="span8">
               <h1>Zimity <small>for Android 2.1+</small></h1>
               <br />
-              <p>Zimity allows you to effortlessly create and share photos, videos and notes using from your current location using your GPS enabled mobile phone. You can also discover local deals, bookmark important locations or even chat with nearby Zimity users!</p>
-              <p>Come join us and leave your mark wherever life takes you.</p>
+              <p>Zimity allows you to effortlessly create and share photos, videos and notes from your current location using your GPS enabled mobile phone. You can also discover local deals, bookmark important locations or chat with nearby Zimity users.</p>
+              <p>Come join us and leave your mark wherever life takes you!</p>
               <br />
-              <p><a class="btn primary large" href="http://market.android.com/details?id=ca.rivalstudios.runboyrun">Download now &raquo;</a></p>
+              <p><a class="btn primary large" href="http://market.android.com/details?id=ca.rivalstudios.runboyrun">Download Now &raquo;</a></p>
            </div>
         </div>
       </div>

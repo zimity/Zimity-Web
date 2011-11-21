@@ -63,7 +63,7 @@
 
 					$small = new SimpleImage();
 					$small->load($temp["tmp_name"]);
-					$small->resize(100, 100);
+					$small->resize(90, 90);
 					$small->save($temp["tmp_name"] . '_s');
 					
 					$medium = new SimpleImage();

@@ -12,7 +12,7 @@
           if ($imprint['Imprint']['imp_type'] == 2) {
              echo '<li>' . $this->Html->link($this->Html->image('http://s3.zimity.me/' . $imprint['Imprint']['slug'] . '_s.jpg'), array('controller' => 'imprints', 'action' => 'view', $imprint['Imprint']['slug']), array('rel' => 'popover', 'title' => $imprint['User']['firstname'], 'data-content' => $imprint['Imprint']['note'], 'escape' => false)) . '</li>';
           } else {
-             echo '<li>' . $this->Html->link($imprint['Imprint']['note'], array('controller' => 'imprints', 'action' => 'view', $imprint['Imprint']['slug'])) . '</li>';
+             echo '<li>' . $this->Html->link($imprint['Imprint']['title'], array('controller' => 'imprints', 'action' => 'view', $imprint['Imprint']['slug'])) . '</li>';
           }
        }
       ?>

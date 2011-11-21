@@ -17,6 +17,12 @@
       </div>
 
       <p><?php echo $imprint['Imprint']['note']; ?></p>
+      
+      <g:plusone size="small"></g:plusone>
+      
+      <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
+      
+      <div class="fb-like" data-href="<?php echo 'http://zimity.me/' . $this->here; ?>" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
 
       <form action="" class="form-stacked">
         <div class="clearfix">
@@ -100,6 +106,21 @@
         <dt>Altitude</dt>
         <dd><?php echo $imprint['Imprint']['altitude']; ?></dd>
       </dl>
+      
+      <br />
+      
+      <script type="text/javascript"><!--
+      google_ad_client = "ca-pub-1840414531786659";
+      /* ZimityImprintAds */
+      google_ad_slot = "0867945814";
+      google_ad_width = 250;
+      google_ad_height = 250;
+      //-->
+      </script>
+      <script type="text/javascript"
+      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+      </script>
+
     </div>
   </div>
   <script type="text/javascript">
@@ -136,3 +157,22 @@
   
   //]]>
   </script>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=166134936742177";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>

@@ -167,13 +167,13 @@
 
       <dl>
         <dt>Name</dt>
-        <dd><?php ucfirst($user['User']['firstname']) . ' ' . ucfirst(substr($user['User']['lastname'], 0, 1)) . '.' ?></dd>
+        <dd><?php echo ucfirst($user['User']['firstname']) . ' ' . ucfirst(substr($user['User']['lastname'], 0, 1)) . '.' ?></dd>
 
         <dt>Location</dt>
-        <dd><?php $user['User']['location']; ?></dd>
+        <dd><?php echo $user['User']['location']; ?></dd>
 
         <dt>About</dt>
-        <dd><?php $user['User']['about']; ?></dd>
+        <dd><?php echo $user['User']['about']; ?></dd>
       </dl>
     </div>
   </div>

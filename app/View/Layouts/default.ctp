@@ -124,7 +124,7 @@
             <?php echo $this->Html->link('About', '/about'); ?> &middot;
             <?php echo $this->Html->link('Contact Us', '/contact'); ?> &middot;
             <?php echo $this->Html->link('Blog', 'http://blog.zimity.me/'); ?> &middot;
-            <?php echo $this->Html->link('Help', 'http://support.zimity.me/'); ?> &middot;
+            <?php echo $this->Html->link('Support', 'http://support.zimity.me/'); ?> &middot;
             <?php echo $this->Html->link('Developers', '/dev'); ?> &middot;
             <?php echo $this->Html->link('Jobs', '/jobs'); ?> &middot;
             <?php echo $this->Html->link('Terms', '/terms'); ?> &middot;
