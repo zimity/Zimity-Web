@@ -89,23 +89,34 @@ CREATE TABLE `users` (
 INSERT INTO `users` VALUES(1, 1, 'Melvin', 'Parinas', 'Life begins at the end of your comfort.', 'Ottawa, ON', 'Hello, I am a programmer.', 'mjparinas@gmail.com', 1, '', NULL, NULL, 0, '2010-11-30 01:20:34', '2010-11-30 01:20:37');
 
 
-CREATE TABLE 'wall_comments' (
-  'id' int(11) unsigned NOT NULL AUTO_INCREMENT,
-  'wall_id' INT NOT NULL,
-  'user_id' INT NOT NULL,
-  'comment' text NOT NULL,
+--
+-- Table structure for table `comments`
+--
+
+CREATE TABLE `comments` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `imprint_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `comment` text NOT NULL,
   `deleted` tinyint(1) NOT NULL,
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-)  ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
-CREATE TABLE 'imprint_comments' (
-  'id' int(11) unsigned NOT NULL AUTO_INCREMENT,
-  'imprint_id' INT NOT NULL,
-  'user_id' INT NOT NULL,
-  'comment' text NOT NULL,
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `messages`
+--
+
+CREATE TABLE `messages` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `recipient_id` int(11) NOT NULL,
+  `comment` text NOT NULL,
   `deleted` tinyint(1) NOT NULL,
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL,
-)  ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;

@@ -30,7 +30,7 @@
             <?php
                     foreach ($user['Imprint'] as $imprint) {
                             if ($imprint['imp_type'] == 2) {
-                                    echo '<li><a class="lightbox" rel="popover" title="' . $imprint['note'] . '" href="http://s3.zimity.me/' . $imprint['slug'] . '.jpg"><img alt="' . $imprint['note'] . '" src="http://s3.zimity.me/' . $imprint['slug'] . '_s.jpg" /></a></li>';
+                                    echo '<li><a rel="popover" title="' . $imprint['title'] . '" href="/i/' . $imprint['slug'] . '"><img alt="' . $imprint['title'] . '" src="http://s3.zimity.me/' . $imprint['slug'] . '_s.jpg" /></a></li>';
                             }
                     }
             ?>
@@ -121,43 +121,12 @@
 
       <table class="zebra-striped">
         <tbody>
-          <tr>
-            <td>PIC</td>
-            <td>Username</td>
-            <td>This is my comment about this imprint!</td>
-          </tr>
-
-          <tr>
-            <td>PIC</td>
-            <td>Username</td>
-            <td>This is my comment about this imprint!</td>
-          </tr>
-
-          <tr>
-            <td>PIC</td>
-            <td>Username</td>
-            <td>This is my comment about this imprint!</td>
-          </tr>
-
-          <tr>
-            <td>PIC</td>
-            <td>Username</td>
-            <td>This is my comment about this imprint!</td>
-          </tr>
-
-          <tr>
-            <td>PIC</td>
-
-            <td>Username</td>
-
-            <td>This is my comment about this imprint!</td>
-          </tr>
-
-          <tr>
-            <td>PIC</td>
-            <td>Username</td>
-            <td>This is my comment about this imprint!</td>
-          </tr>
+	  <?php
+	  foreach($user['MessageReceived'] as $messages) {
+	     echo '<tr><td>PIC</td><td>' . $messages['recipient_id'] . '</td>';
+              echo '<td>' . $messages['comment'] . '</td></tr>';
+	  }
+          ?>
         </tbody>
       </table>
     </div>
@@ -184,3 +153,7 @@
   })
   //]]>
   </script>
+  
+<pre>
+  <?php echo print_r($user) ?>
+</pre>

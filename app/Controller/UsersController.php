@@ -1,10 +1,10 @@
 <?php
     class UsersController extends AppController {
-        var $name = 'Users';
+        public $name = 'Users';
 
-		function index() {
-			$this->set('users', $this->User->find('all'));
-		}
+	function index() {
+		$this->set('users', $this->User->find('all'));
+	}
 		
         function view($id = null) {
             $row = $this->User->findById($id);

@@ -41,57 +41,20 @@
 
       <table class="zebra-striped">
         <tbody>
-          <tr>
-            <td>PIC</td>
-            <td>Username</td>
-            <td>This is my comment about this imprint!</td>
-          </tr>
-
-          <tr>
-            <td>PIC</td>
-            <td>Username</td>
-            <td>This is my comment about this imprint!</td>
-          </tr>
-
-          <tr>
-            <td>PIC</td>
-            <td>Username</td>
-            <td>This is my comment about this imprint!</td>
-          </tr>
-
-          <tr>
-            <td>PIC</td>
-            <td>Username</td>
-            <td>This is my comment about this imprint!</td>
-          </tr>
-
-          <tr>
-            <td>PIC</td>
-            <td>Username</td>
-            <td>This is my comment about this imprint!</td>
-          </tr>
-
-          <tr>
-            <td>PIC</td>
-            <td>Username</td>
-            <td>This is my comment about this imprint!</td>
-          </tr>
+	  <?php
+	  foreach($imprint['Comment'] as $comments) {
+	     echo '<tr><td>PIC</td><td>' . $comments['user_id'] . '</td>';
+              echo '<td>' . $comments['comment'] . '</td></tr>';
+	  }
+          ?>
         </tbody>
       </table>
     </div>
 
     <div class="span4">
-      <h3>Profile</h3>
-
       <dl>
         <dt>Name</dt>
         <dd><?php echo $this->Html->link($imprint['User']['firstname'], array('controller' => 'users', 'action' => 'view', $imprint['User']['id'])); ?></dd>
-
-        <dt>Location</dt>
-        <dd>Ottawa, ON</dd>
-
-        <dt>Contact</dt>
-        <dd>blah@blah.com</dd>
       </dl>
 
       <div id="map_canvas"></div>
@@ -176,3 +139,7 @@
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=166134936742177";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+<pre>
+  <?php echo print_r($imprint) ?>
+</pre>

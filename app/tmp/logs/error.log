@@ -11458,3 +11458,26 @@ App::shutdown() - CORE/Cake/Core/App.php, line 886
 #3 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ImprintsController), Object(CakeRequest), Object(CakeResponse))
 #4 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2011-11-21 00:54:04 Error: [MissingTableException] Database table messages for model MessageSent was not found.
+#0 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Model/Model.php(3238): Model->setSource('messages')
+#1 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Model/Datasource/DboSource.php(1026): Model->getDataSource()
+#2 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Model/Model.php(2460): DboSource->read(Object(User), Array)
+#3 /Users/mjparinas/Documents/Zimity-Web/app/Controller/UsersController.php(6): Model->find('all')
+#4 [internal function]: UsersController->index()
+#5 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2011-11-21 01:01:23 Error: [NotFoundException] Not Found
+#0 [internal function]: ImprintsController->view('8XUQzv.jpg')
+#1 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ImprintsController), Array)
+#2 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ImprintsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-21 01:30:35 Error: [MissingActionException] Action UsersController::i() could not be found.
+#0 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/mjparinas/Documents/Zimity-Web/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/mjparinas/Documents/Zimity-Web/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

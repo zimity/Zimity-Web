@@ -1,10 +1,11 @@
 <?php
     class Imprint extends AppModel {
-        var $name = 'Imprint';
+        public $name = 'Imprint';
 
-		var $belongsTo = 'User';
+	public $belongsTo = 'User';
+	public $hasMany = 'Comment';
         
-        var $validate = array(
+	public $validate = array(
             'slug' => array(
                 'rule' => 'isUnique',
                 'message' => 'THIS SLUG ALREADY EXISTS!'
